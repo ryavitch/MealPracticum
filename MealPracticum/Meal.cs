@@ -11,8 +11,8 @@ namespace MealPracticum
             MealItem.coffee,
             MealItem.potato
         };
-        private List<MealItem> _mealItems = new List<MealItem>();
-        private TimeOfDay _timeOfDay;
+        private readonly List<MealItem> _mealItems = new List<MealItem>();
+        private readonly TimeOfDay _timeOfDay;
         private bool _isValidIndexes = true;
 
         public bool IsValid

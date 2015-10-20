@@ -7,7 +7,7 @@ namespace MealPracticum.Test
     public class FunctionalTests
     {
         [TestMethod]
-        public void FunctionalTest1()
+        public void FunctionalTestStandard()
         {
             var timeOfDay = new TimeOfDay("morning");
             var inputDishes = "1,2,3";
@@ -20,7 +20,7 @@ namespace MealPracticum.Test
         }
 
         [TestMethod]
-        public void FunctionalTest2()
+        public void FunctionalTestSorting()
         {
             var timeOfDay = new TimeOfDay("morning");
             var inputDishes = "2,1,3";
@@ -33,7 +33,7 @@ namespace MealPracticum.Test
         }
 
         [TestMethod]
-        public void FunctionalTest3()
+        public void FunctionalTestWithError()
         {
             var timeOfDay = new TimeOfDay("morning");
             var inputDishes = "1,2,3,4";

@@ -5,8 +5,8 @@ namespace MealPracticum
 
     public class MealItemRepository
     {
-        private static MealItem[] morningMealItems = {MealItem.eggs, MealItem.toast, MealItem.coffee};
-        private static MealItem[] nightMealItems = {MealItem.steak, MealItem.potato, MealItem.wine, MealItem.cake};
+        private static readonly MealItem[] MorningMealItems = {MealItem.eggs, MealItem.toast, MealItem.coffee};
+        private static readonly MealItem[] NightMealItems = {MealItem.steak, MealItem.potato, MealItem.wine, MealItem.cake};
 
         public MealItem GetMealItems(TimeOfDay timeOfDay, short dishType)
         {
@@ -15,9 +15,9 @@ namespace MealPracticum
             switch (timeOfDay.Time)
             {
                 case TimeOfDayEnum.morning:
-                    return morningMealItems[dishTypeIndex];
+                    return MorningMealItems[dishTypeIndex];
                 case TimeOfDayEnum.night:
-                    return nightMealItems[dishTypeIndex];
+                    return NightMealItems[dishTypeIndex];
                 default:
                     throw new ArgumentException();
             }
