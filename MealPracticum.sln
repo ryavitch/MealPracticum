@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPracticum", "MealPracticum\MealPracticum.csproj", "{F8071049-911A-4D5E-A933-17F786E769A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MealPracticum.Test", "MealPracticum.Test\MealPracticum.Test.csproj", "{A503595A-B507-43E7-8EFB-C1B51DB00E9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8071049-911A-4D5E-A933-17F786E769A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8071049-911A-4D5E-A933-17F786E769A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8071049-911A-4D5E-A933-17F786E769A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8071049-911A-4D5E-A933-17F786E769A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A503595A-B507-43E7-8EFB-C1B51DB00E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A503595A-B507-43E7-8EFB-C1B51DB00E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A503595A-B507-43E7-8EFB-C1B51DB00E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A503595A-B507-43E7-8EFB-C1B51DB00E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
